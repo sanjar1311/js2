@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  transition: background-color .5s ease;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.btn {
+  margin: 0;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid dodgerblue;
+  border-radius: 4px;
+  font-size: 18px;
+  color: dodgerblue;
+  cursor: pointer;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+.btn:hover {
+  background-color: dodgerblue;
+  color: #fff;
+  transition: background-color .4s ease;
+}
